@@ -1,0 +1,2 @@
+# rsocial-poo
+proyecto poo
