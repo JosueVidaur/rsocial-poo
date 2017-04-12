@@ -14,14 +14,33 @@
   padding: 0;
 }
 
+.input-login {
+  width: 150px;
+}
+
+.nav {
+  background: #3E2538;
+}
 label {
   font-family: 'Pontano';
 }
 
 body {
   font-family: 'Poiret';
+  background: url(assets/image/backg.jpg);
+  background-size: cover;
+  overflow: hidden;
 }
 
+#login {
+  margin-left: 200px;
+  display: inline;
+
+}
+
+.login-form {
+    display: inline;
+}
 
 .btn {
   border: none;
@@ -31,7 +50,7 @@ body {
   font-size: 17px;
   padding: 0;
   width: 150px;
-  height: 40px;
+  height: 30px;
   text-transform: lowercase;
   font-family: 'Pontano';
 }
@@ -39,15 +58,29 @@ body {
 
 .btn-redondo {
   border-radius: 20px;
-  box-shadow: 0px 3px 0px #eee;
+  box-shadow: 0px 3px 0px #333;
 }
 
 .color-verde {
   background-color: #33be8f;
 }
+
+.color-rosa {
+  background-color: #CA6473;
+}
+
+.color-rosa:hover {
+  background-color: #CA575C;
+}
+
+.color-verde:hover {
+    background-color: #1F9B6D;
+}
+
 h1 {
   display: inline;
   margin: 45px;
+  font-size: 45px;
 }
 
 input {
@@ -68,4 +101,5 @@ input {
   text-align: center;
   width: 300px;
   display: block;
+
 }
